@@ -47,7 +47,7 @@ namespace game
             if (!Char.IsLetter(letter))
             {
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("Invalid Character.");
+                Console.WriteLine("Sorry, invalid Character.");
                 //containsLetter == false;
             }
              else if (containsLetter == true)
