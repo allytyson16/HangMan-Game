@@ -6,10 +6,10 @@ namespace game
 {
     static void Main(string[] args)
     {
-        string[] word = { "google", "water", "calculator", "school", "tissue", "chair", "table", "computer", "code", "laboratory", "charger", "chrome", "safari", "explore", "edge" };
+        string[] word = { "google", "water", "calculator", "school", "tissue", "chair", "table", "computer", "code", "laboratory", "charger", "chrome", "safari", "explore", "edge", "rubber"};
         //Console.Write(word.Length);
         Random random = new Random();
-        int randomIndex = random.Next(0, 15);
+        int randomIndex = random.Next(0, 16);
         string selectedWord = word[randomIndex];
         char wordAlpha = selectedWord[random.Next(0, selectedWord.Length)];
         string hiddenWord = "";
